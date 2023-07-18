@@ -4,9 +4,11 @@ import pygame
 from pygame.locals import *
 from sys import exit
 from random import randint
+from time import sleep
 
 
 pygame.init()
+sleep(3)
 
 pygame.mixer.music.set_volume(0.1)
 
